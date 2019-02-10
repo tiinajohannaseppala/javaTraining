@@ -1,0 +1,106 @@
+* {
+    font-family: "Arial";
+    background-color: #EFECE2;
+    font-size: 12px;
+    margin: 2px;
+    padding: 2px;
+} 
+
+img {
+	margin-top: 10px;
+	margin-bottom:10px;
+}
+
+a {
+	font-size: 10px;
+	color: grey;
+	background-color: white;
+	text-decoration: none;
+}
+
+a:hover 
+{
+     color:#B4282E; 
+     text-decoration:none; 
+     background-color: white;
+     cursor:pointer;  
+}
+
+abbr {
+	background-color: white;
+}
+
+table {
+	border-collapse: collapse;
+	}
+
+table, th, td {
+	border: 0.5px solid #B4282E;
+	background-color: white;
+	}
+	
+td, th {
+	width: 90px; 
+	padding: 4px;
+}
+
+th {
+	text-align: center; 
+	color: #B4282E;
+}
+
+td {
+	text-align: left; 
+}
+
+table.sisaan {
+	border: hidden;
+	background-color: #EFECE2;
+	width: 300px;
+}
+
+th.otsikko {
+	width: 30%;
+	text-align: left;
+	color: #B4282E;
+	
+}
+
+th.otsikko, td.sisalto {
+	border: hidden;
+	background-color: #EFECE2;
+}
+
+table.lisays {
+	border: hidden;
+	background-color: #EFECE2;
+	width: 400px;
+}
+
+th.kapeampi {
+	width: 20%;
+	text-align: left;
+	color: #B4282E;
+	
+}
+
+th.kapeampi, td.levea {
+	border: hidden;
+	background-color: #EFECE2;
+}
+
+input[type="button"], input[type="submit"] {     
+    background-color: #B4282E;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    border: none;
+	width: 100px;
+	padding: 4px;
+	margin: 10px;
+}
+
+input[type="text"], input[type="password"] {     
+    background-color: white;
+
+}
